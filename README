@@ -1,0 +1,19 @@
+USAGE:
+-n <trials>
+-city_strength <city_strength>
+-city_health <city_health>
+-frigate_strength <frigate_strength>
+-n_frigates <number of frigates>
+-d <defender_strength>
+
+-d may be appended repeatedly to simulate more defenders
+
+Flags:
+-quiet_mode - only output results (AVG_FRIGATES_LEFT AVG_TURNS AVG_SUCCESS)
+-trial_data - output results per trial (FRIGATES_LEFT TURNS) - does not output final averages
+
+
+
+NOTE: This sim assumes that your frigates do nothing but attack the city and success is on a 0 health city
+It also applys shots from defenders in the order listed - it is possible that more efficient shooting from your opponent could make you do worse (though probably only slightly).
+
